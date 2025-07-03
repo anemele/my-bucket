@@ -1,0 +1,63 @@
+{
+    "##": "This file is a template. Fill the blanks and add or remove fields as necessary.",
+    "version": "0.12.4",
+    "description": "go version manager",
+    "homepage": "https://github.com/anemele/goup-rs",
+    "license": "",
+    "notes": "",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/anemele/goup-rs/releases/download/v0.12.4/goup-0.12.4-x86_64-pc-windows-msvc.zip",
+            "hash": "3925dfd8f32ac34e0c0952f790122ea82721eb125ae37b09819b1e9f0e5376e1"
+        },
+        "32bit": {
+            "url": "https://github.com/anemele/goup-rs/releases/download/v0.12.4/goup-0.12.4-i686-pc-windows-msvc.zip",
+            "hash": "660fca2d4a3869fa7e772f8926ded7d29f943e3d6647312b6a4e29dabccfb2e5"
+        },
+        "arm64": {
+            "url": "https://github.com/anemele/goup-rs/releases/download/v0.12.4/goup-0.12.4-aarch64-pc-windows-msvc.zip",
+            "hash": "f5b7f08874dfba8d29c7172922cb1bdcdce9b93a2147303f49795e83b507b6f1"
+        }
+    },
+    "pre_install": "",
+    "installer": {
+        "script": ""
+    },
+    "post_install": [
+        "",
+        ""
+    ],
+    "uninstaller": {
+        "script": ""
+    },
+    "bin": "goup.exe",
+    "env_add_path": [
+        "",
+        ""
+    ],
+    "persist": [
+        "",
+        ""
+    ],
+    "checkver": {
+        "url": "https://github.com/anemele/goup-rs",
+        "regex": ""
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/anemele/goup-rs/releases/download/v$version/goup-$version-x86_64-pc-windows-msvc.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/anemele/goup-rs/releases/download/v$version/goup-$version-i686-pc-windows-msvc.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/anemele/goup-rs/releases/download/v$version/goup-$version-aarch64-pc-windows-msvc.zip"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256",
+            "regex": "",
+        }
+    }
+}
