@@ -4,46 +4,21 @@
     "description": "make cover for folder in explorer",
     "homepage": "https://github.com/anemele/make-film-cover",
     "license": "",
-    "notes": "",
     "architecture": {
         "64bit": {
             "url": "https://github.com/anemele/make-film-cover/releases/download/v0.5.0/mfc-0.5.0-x86_64-pc-windows-msvc.zip",
             "hash": "bcd9eee80ef99c6a578183de30176c8145cbc567b2093ff4cd529a9a8db0129d"
         }
     },
-    "pre_install": "",
-    "installer": {
-        "script": ""
-    },
-    "post_install": [
-        "",
-        ""
-    ],
-    "uninstaller": {
-        "script": ""
-    },
     "bin": "mfc.exe",
-    "env_add_path": [
-        "",
-        ""
-    ],
-    "persist": [
-        "",
-        ""
-    ],
     "checkver": {
-        "url": "https://github.com/anemele/make-film-cover",
-        "regex": ""
+        "github": "https://github.com/anemele/make-film-cover"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
                 "url": "https://github.com/anemele/make-film-cover/releases/download/v$version/mfc-$version-x86_64-pc-windows-msvc.zip"
             }
-        },
-        "hash": {
-            "url": "",
-            "regex": ""
         }
     }
 }

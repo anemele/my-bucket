@@ -3,8 +3,7 @@
     "version": "0.12.4",
     "description": "go version manager",
     "homepage": "https://github.com/anemele/goup-rs",
-    "license": "",
-    "notes": "",
+    "license": "Apache-2.0",
     "architecture": {
         "64bit": {
             "url": "https://github.com/anemele/goup-rs/releases/download/v0.12.4/goup-0.12.4-x86_64-pc-windows-msvc.zip",
@@ -19,29 +18,9 @@
             "hash": "f5b7f08874dfba8d29c7172922cb1bdcdce9b93a2147303f49795e83b507b6f1"
         }
     },
-    "pre_install": "",
-    "installer": {
-        "script": ""
-    },
-    "post_install": [
-        "",
-        ""
-    ],
-    "uninstaller": {
-        "script": ""
-    },
     "bin": "goup.exe",
-    "env_add_path": [
-        "",
-        ""
-    ],
-    "persist": [
-        "",
-        ""
-    ],
     "checkver": {
-        "url": "https://github.com/anemele/goup-rs",
-        "regex": ""
+        "github": "https://github.com/anemele/goup-rs"
     },
     "autoupdate": {
         "architecture": {
@@ -56,8 +35,7 @@
             }
         },
         "hash": {
-            "url": "$url.sha256",
-            "regex": ""
+            "url": "$url.sha256"
         }
     }
 }

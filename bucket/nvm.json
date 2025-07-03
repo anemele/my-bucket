@@ -4,46 +4,21 @@
     "description": "nodejs version manager",
     "homepage": "https://github.com/anemele/nvm",
     "license": "",
-    "notes": "",
     "architecture": {
         "64bit": {
             "url": "https://github.com/anemele/nvm/releases/download/v0.7.3/nvm-0.7.3-x86_64-pc-windows-msvc.zip",
             "hash": "42e4c903ddde87a0e04cddff73022c4dce2525c551a25b86ae757ce398db03df"
         }
     },
-    "pre_install": "",
-    "installer": {
-        "script": ""
-    },
-    "post_install": [
-        "",
-        ""
-    ],
-    "uninstaller": {
-        "script": ""
-    },
     "bin": "nvm.exe",
-    "env_add_path": [
-        "",
-        ""
-    ],
-    "persist": [
-        "",
-        ""
-    ],
     "checkver": {
-        "url": "https://github.com/anemele/nvm",
-        "regex": ""
+        "github": "https://github.com/anemele/nvm"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
                 "url": "https://github.com/anemele/nvm/releases/download/v$version/nvm-$version-x86_64-pc-windows-msvc.zip"
             }
-        },
-        "hash": {
-            "url": "",
-            "regex": ""
         }
     }
 }
