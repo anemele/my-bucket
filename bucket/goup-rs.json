@@ -57,7 +57,7 @@
         },
         "hash": {
             "url": "$url.sha256",
-            "regex": "",
+            "regex": ""
         }
     }
 }
