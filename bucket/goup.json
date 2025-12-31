@@ -1,21 +1,21 @@
 {
     "##": "This file is a template. Fill the blanks and add or remove fields as necessary.",
-    "version": "0.13.1",
+    "version": "0.13.2",
     "description": "go version manager",
     "homepage": "https://github.com/anemele/goup",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/anemele/goup/releases/download/v0.13.1/goup-0.13.1-x86_64-pc-windows-msvc.zip",
-            "hash": "491fe0fda29b274c24020627a4d258656f9692d7baf4e9a2df70021f2bfe1e12"
+            "url": "https://github.com/anemele/goup/releases/download/v0.13.2/goup-0.13.2-x86_64-pc-windows-msvc.zip",
+            "hash": "8f7d196272edef36a1eee04912a08bfc3ddcb165dec9ff708503ce37a34f3055"
         },
         "32bit": {
-            "url": "https://github.com/anemele/goup/releases/download/v0.13.1/goup-0.13.1-i686-pc-windows-msvc.zip",
-            "hash": "6f2e6cd2fa9ff01da0c8462821d62c87ccee0ba5932f075cf8c915ac1c77c0cf"
+            "url": "https://github.com/anemele/goup/releases/download/v0.13.2/goup-0.13.2-i686-pc-windows-msvc.zip",
+            "hash": "745ea7ee89cc284393b0f5a6ad184ea63567c19e71ce2af86a92fcf811885eb6"
         },
         "arm64": {
-            "url": "https://github.com/anemele/goup/releases/download/v0.13.1/goup-0.13.1-aarch64-pc-windows-msvc.zip",
-            "hash": "3e00ad574771f2962ba495c5bc25b9c87958430fdb2ad1b7e34776248455d377"
+            "url": "https://github.com/anemele/goup/releases/download/v0.13.2/goup-0.13.2-aarch64-pc-windows-msvc.zip",
+            "hash": "0bbb9a2fb0f723e308f828a061d950d1d1a1bac1c5535e70ba04b22f222b5941"
         }
     },
     "bin": "goup.exe",
